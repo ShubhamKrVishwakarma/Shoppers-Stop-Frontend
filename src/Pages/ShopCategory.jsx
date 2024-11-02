@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ShopCategory = () => {
+const ShopCategory = (props) => {
   return (
     <div>
-      
+      <h1>{props.category}</h1>
     </div>
   )
 }
